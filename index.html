@@ -4,51 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Glint & Shine -Andover Window Cleaner</title>
+    <link rel="stylesheet" href="./css/Shared.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <title>Glint& Shine - Andover window cleaners</title>
 </head>
 <body>
-    <!-- Header --> <!--Navbar coding-->
-    <div class="header">
-
-        <h4 class="logo">Glint & Shine</h4>
-        
-        <nav class="dropdown">
-            <button class="dropdown-btn">More</button>
-            <div class="dropdown-content">
-                <a href="index.html">Home</a>
-                <a href="/pages/windowcleaning.html">Window Cleaning</a>
-                <a href="/pages/guttercleaning.html">Gutter Cleaning</a>
-                <a href="/pages/pressurewashing.html">Pressure Washing</a>
-                <a href="/pages/contactus.html">Contact Us</a>
-            </div>
-        </nav>
-    
-   
-    
-    </div>
-
-    
-
-    <!--Logo and background image-->
-    <img class="bg" src="images/windows.jpg" alt="">
-    <div class="main-logo">
-        <h1>Glint & Shine</h1>
-        <hr>
-        <h3>Exterior Cleaning specialists</h3>
-    </div>
 
 
-    <!--Round buttons coding-->
-    <div class="buttons">
-        <button class="round window-cleaning"><a href="/pages/windowcleaning.html">Window<br>Cleaning</a></button>
-        <button class="round gutter-cleaning"><a href="/pages/guttercleaning.html">Gutter<br>Cleaning</a></button>
-        <button class="round pressure-washing"><a href="/pages/pressurewashing.html">Pressure<br>Washing</a></button>
-    </div>
+    <header class="nav">
+        <div class="nav__left"><a href="index.html" class="nav__left--logo">Glint & Shine</a></div>
+        <ul class="nav__items">
+            <li class="nav__items--list"><a href="" class="nav__items--list--buttons">Window Cleaning</a></li>
+            <li class="nav__items--list"><a href="" class="nav__items--list--buttons">Gutter Cleaning</a></li>
+            <li class="nav__items--list"><a href="" class="nav__items--list--buttons">Pressure Washing</a></li>
+            <li class="nav__items--list"><a href="" class="nav__items--list--buttons">Houselift Service</a></li>
+            <li class="nav__items--list"><a href="" class="nav__items--list--buttons">Contact Us</a></li>
+        </ul>
+    </header>
 
 
+    <section class="image">
+        <div class="image__heading">        
+            <p class="image__logo">Glint & Shine</p>
+            <hr />
+            <p class="image__logo-tag">Exterior cleaning company</>
+        </div>
+    </section>
 
-    <!--footer-->
-    <footer class="footer">Made by @Skye design and developments 2022</footer>
+
+    <main class="main">
+        <div class="main__prices main__price-pressurewashing"></div>
+        <div class="main__prices main__price-windowcleaning"></div>
+        <div class="main__prices main__price-gutter"></div>
+    </main>
+
+    <article class="special">
+        <div class="special__offer"></div>
+    </article>
+
+    <footer class="footer">
+        <h4 class="footer__signiture">Created By <a href="#" class="footer__signiture--link">@Skye design and development</a></h4>
+    </footer>
 </body>
 </html>
